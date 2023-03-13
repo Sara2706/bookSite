@@ -1,0 +1,29 @@
+.catogry {
+    margin: 0 5px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4 {
+        margin: 0 0 5px -10px;
+        font-size: 22px;
+        color: rgb(139, 139, 139);
+        font-weight: bold;
+    }
+    
+    .catogryList {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            list-style-type: none;
+            padding: 15px 15px;
+            margin: 0 0 0 0px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(236, 236, 236);
+            }
+        }
+    }
+}
